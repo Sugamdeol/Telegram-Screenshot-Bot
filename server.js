@@ -3,7 +3,7 @@ const puppeteer = require('puppeteer');
 const sharp = require('sharp'); // For image processing
 const validUrl = require('valid-url'); // For URL validation
 
-const token = 'YOUR_TELEGRAM_BOT_TOKEN';
+const token = '7440102190:AAFmKfc1mIB4x1XFaMhvvPXHNQ6Q5V3y_rs';
 const bot = new TelegramBot(token, { polling: true });
 
 // Start command with custom keyboard
