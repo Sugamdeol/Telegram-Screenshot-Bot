@@ -1,0 +1,13 @@
+{
+  "name": "telegram-screenshot-bot",
+  "version": "1.0.0",
+  "description": "A bot that takes website screenshots",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.53.0",
+    "puppeteer": "^10.2.0"
+  }
+}
